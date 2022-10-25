@@ -1,0 +1,115 @@
+/* variables for the colors used so they can easily be changed */
+:root {
+    --dark: #222831;
+    --off-white: #EEEEEE;
+    --teal: #00ADB5;
+}
+/* styling for body content */
+body {
+    background-color: var(--dark);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--off-white);
+    
+}
+
+/* styling for header */
+.header {
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: var(--teal);
+    color: var(--off-white);
+    padding: 10px 20px 5px;
+    width: 100%;
+}
+/* font size for h1 */
+h1{
+    font-size: 300%;
+}
+/* styling for list items */
+.header ul {
+    list-style-type: none;
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header li {
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.header li a {
+    display:block;
+    float: right;
+    color: var(--off-white);
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* styling for the about section */
+.about {
+    display: flex;
+    margin: 50px 0px 30px;
+    
+}
+
+.about p {
+    text-align: center;
+    color: var(--off-white);
+    font-size: 20px;
+    padding: 20px;
+    line-height: 1.5em;
+    
+}
+
+.about img {
+    float: left;
+    max-width: 20%;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+/* sets the styling for the h3 element
+    used to label each section */
+h3 {
+    display: flex;
+    font-size: 250%;
+    color: var(--off-white);
+    padding: 20px;
+    margin: 20px;
+    text-decoration: underline;
+}
+/* styling for projects section */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    
+}
+
+.projects a{
+    padding: 2px;
+}
+/* styles list of contact info */
+.contact ul {
+    display: inline-flex;
+    justify-content: center;
+}
+.contact a{ 
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--off-white);
+    padding: 20px 50px;
+}
+/* styling for the footer */
+h4 {
+    background-color: var(--teal);
+    padding: 5px;
+    margin: 50px 0px 0px;
+    text-align: center;
+}
