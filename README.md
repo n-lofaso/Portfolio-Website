@@ -9,13 +9,15 @@
 
 ## Screenshot
 
-    ![portfolio1](portfolio1.png)
-    
-    ![portfolio2](portfolio2.png)
+![portfolio1](https://user-images.githubusercontent.com/114538098/197667975-ca33e259-c476-40c9-b649-c314e4f42126.png)
 
+    
+![portfolio2](https://user-images.githubusercontent.com/114538098/197667989-0cc98a80-5a5e-4148-a737-ec02ca7b7ba6.png)
+    
 
 ## Deployed link
 
-    [Link to the live site](https://n-lofaso.github.io/my-portfolio-website/)
+[Link for live webpage](https://n-lofaso.github.io/my-portfolio-website/)
 
     
+
